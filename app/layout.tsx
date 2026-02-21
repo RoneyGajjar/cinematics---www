@@ -28,8 +28,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "El Gajjar Cinematics® | Telescopic Camera Cranes & Cinema Equipment",
-    template: "%s | El Gajjar Cinematics",
+    default: "RK Cinematics® | Telescopic Camera Cranes & Cinema Equipment",
+    template: "%s | RK Cinematics",
   },
   description:
     "Precision-engineered telescopic camera cranes, mobile bases, and production carts. Manufactured in Ahmedabad for Bollywood, Tollywood, and global productions. Silent-Glide Belt Drive. 2.5 m/s. Lease-to-Own.",
@@ -38,26 +38,26 @@ export const metadata: Metadata = {
     "camera crane India",
     "film equipment",
     "cinema equipment",
-    "EGC series",
+    "RKC series",
     "Bollywood film equipment",
     "Tollywood film equipment",
     "camera crane rental",
     "production equipment",
   ],
-  authors: [{ name: "El Gajjar Cinematics" }],
-  creator: "El Gajjar Cinematics",
-  publisher: "El Gajjar Cinematics",
+  authors: [{ name: "RK Cinematics" }],
+  creator: "RK Cinematics",
+  publisher: "RK Cinematics",
   metadataBase: new URL("https://elgajjar.com"),
   openGraph: {
     type: "website",
     locale: "en_IN",
-    siteName: "El Gajjar Cinematics",
-    title: "El Gajjar Cinematics® | Telescopic Camera Cranes",
+    siteName: "RK Cinematics",
+    title: "RK Cinematics® | Telescopic Camera Cranes",
     description: "Precision-engineered telescopic camera cranes for Bollywood, Tollywood, and global productions.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "El Gajjar Cinematics® | Telescopic Camera Cranes",
+    title: "RK Cinematics® | Telescopic Camera Cranes",
     description: "Precision-engineered telescopic camera cranes for Bollywood, Tollywood, and global productions.",
   },
   robots: {

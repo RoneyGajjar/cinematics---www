@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Typography from "./Typography";
 
 interface AccentBadgeProps {
   children: React.ReactNode;
@@ -11,14 +12,14 @@ interface AccentBadgeProps {
  */
 export default function AccentBadge({ children, className }: AccentBadgeProps) {
   return (
-    <span
+    <Typography
+      variant="card-label"
       className={cn(
-        "font-sans text-[0.55rem] tracking-[0.18em] uppercase",
         "text-accent border border-accent-border px-3 py-1 inline-block",
         className
       )}
     >
       {children}
-    </span>
+    </Typography>
   );
 }

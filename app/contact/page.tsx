@@ -5,7 +5,7 @@ import ContactSection from "@/components/organisms/ContactSection";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with El Gajjar Cinematics. Request a quote for telescopic camera cranes, mobile bases, and production carts. 24/7 AOG support line available.",
+  description: "Get in touch with RK Cinematics. Request a quote for telescopic camera cranes, mobile bases, and production carts. 24/7 AOG support line available.",
 };
 
 export default function ContactPage() {

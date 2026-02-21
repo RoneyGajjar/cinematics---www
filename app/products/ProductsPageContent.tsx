@@ -28,7 +28,7 @@ export function ProductsPageContent() {
         <SectionTag>[Product Catalog]</SectionTag>
         <div className="flex justify-between items-end flex-wrap gap-8 mb-12">
           <Typography variant="display-xl" as="h1">
-            The EGC Series.
+            The SETU Series.
           </Typography>
           <p className="font-sans text-[0.7rem] text-fg-faint leading-[1.75] max-w-[320px] tracking-[0.02em]">
             Every unit ships with factory load certification, full wiring

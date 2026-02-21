@@ -3,6 +3,7 @@ import SectionTag from "@/components/atoms/SectionTag";
 import Heading from "@/components/atoms/Heading";
 import ProductCard from "@/components/molecules/ProductCard";
 import { products } from "@/lib/products";
+import Typography from "../atoms/Typography";
 
 export default function FeaturedWorks() {
   return (
@@ -15,17 +16,21 @@ export default function FeaturedWorks() {
         <div>
           <SectionTag>[Product Catalog]</SectionTag>
           <Heading>
-            The EGC Series.
+            The RKC Series.
             <br />
             <span className="text-fg-faint">Three cranes. One standard.</span>
           </Heading>
         </div>
 
         <div className="flex flex-col items-end gap-3 pt-2">
-          <p className="font-sans text-[0.65rem] text-fg-faint leading-[1.7] max-w-[280px] text-right tracking-[0.04em]">
-            All EGC products ship with factory load certification, full wiring
+          {/* <p className="font-sans text-[0.65rem] text-fg-faint leading-[1.7] max-w-[280px] text-right tracking-[0.04em]">
+            All RKC products ship with factory load certification, full wiring
             schematics, and a 6-hour SLA within Mumbai and Hyderabad zones.
-          </p>
+          </p> */}
+          <Typography variant="para-sm" className="text-right max-w-sm">
+            All RKC products ship with factory load certification, full wiring
+            schematics, and a 6-hour SLA within Mumbai and Hyderabad zones.
+          </Typography>
           <Link
             href="/products"
             className="font-sans text-[0.6rem] tracking-[0.18em] uppercase text-accent no-underline hover:underline"

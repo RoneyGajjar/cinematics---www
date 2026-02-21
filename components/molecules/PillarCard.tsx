@@ -39,14 +39,21 @@ export default function PillarCard({
       </Typography>
 
       {/* Sub-title */}
-      <p className="font-sans text-[0.6rem] tracking-[0.18em] uppercase text-fg-faint mb-6">
+      {/* <p className="font-sans text-[0.6rem] tracking-[0.18em] uppercase text-fg-faint mb-6">
         {sub}
-      </p>
+      </p> */}
+      <Typography variant="card-label" className="mb-6" textColor="faint">
+        {sub}
+      </Typography>
+
 
       {/* Body */}
-      <p className="font-sans text-[0.76rem] text-fg-faint leading-[1.8]">
+      {/* <p className="font-sans text-[0.76rem] text-fg-faint leading-[1.8]">
         {body}
-      </p>
+      </p> */}
+      <Typography variant="card-body" textColor="faint">
+        {body}
+      </Typography>
     </div>
   );
 }

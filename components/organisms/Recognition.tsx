@@ -1,5 +1,6 @@
 import Heading from "@/components/atoms/Heading";
 import CertRow from "@/components/molecules/CertRow";
+import Typography from "../atoms/Typography";
 
 const certifications = [
   { year: "25'", title: "ISO 9001:2015 Certified",          body: "Bureau Veritas",                     detail: "Quality Management System" },
@@ -28,12 +29,12 @@ export default function Recognition() {
           {/* Column headers */}
           <div className="grid grid-cols-[60px_1fr_1fr] gap-4 pb-3.5 border-b border-border">
             {["Year", "Certification", "Detail"].map((col) => (
-              <p
+              <Typography variant="card-label"
                 key={col}
-                className="font-sans text-[0.55rem] tracking-[0.20em] uppercase text-fg-ghost"
+                textColor="ghost"
               >
                 {col}
-              </p>
+              </Typography>
             ))}
           </div>
 

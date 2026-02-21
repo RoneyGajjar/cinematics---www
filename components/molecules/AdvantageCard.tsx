@@ -9,7 +9,7 @@ interface AdvantageCardProps {
 }
 
 /**
- * Single advantage card in the "Why EGC" section.
+ * Single advantage card in the "Why RKC" section.
  * bg-bg-subtle fills the grid cell so gap-px bg-border creates visible dividers.
  */
 export default function AdvantageCard({
@@ -20,15 +20,15 @@ export default function AdvantageCard({
 }: AdvantageCardProps) {
   return (
     <div className={cn("bg-bg-subtle px-site py-10 md:py-14", className)}>
-      <p className="font-sans text-[0.55rem] tracking-[0.20em] text-accent mb-10">
+      <Typography variant="card-label" textColor="accent" className="mb-10">
         {tag}
-      </p>
-      <Typography variant="card-title-sm" as="h3" textColor="muted" className="mb-4">
+      </Typography>
+      <Typography variant="card-title-base" as="h3" textColor="muted" className="mb-4">
         {title}
       </Typography>
-      <p className="font-sans text-[0.70rem] text-fg-faint leading-[1.8]">
+      <Typography variant="card-body" textColor="faint">
         {desc}
-      </p>
+      </Typography  >
     </div>
   );
 }

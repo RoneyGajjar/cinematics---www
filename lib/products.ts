@@ -21,7 +21,7 @@ export const products: Product[] = [
   {
     id: "egc-20",
     slug: "egc-20",
-    name: "EGC-20",
+    name: "SETU-20",
     category: "Telescopic Crane",
     tagline: "Professional reach. Silent operation.",
     desc: "20-foot reach. Entry-level performance with professional-grade belt drive. Ideal for studio and mid-scale productions.",
@@ -44,7 +44,7 @@ export const products: Product[] = [
   {
     id: "egc-40",
     slug: "egc-40",
-    name: "EGC-40",
+    name: "SETU-40",
     category: "Telescopic Crane — Flagship",
     tagline: "The benchmark. Built for India's biggest sets.",
     desc: "40-foot reach. The benchmark product. Closed-loop PID control, MEMS gyroscope leveling, sub-pixel stability at full extension.",
@@ -77,7 +77,7 @@ export const products: Product[] = [
   {
     id: "egc-60",
     slug: "egc-60",
-    name: "EGC-60",
+    name: "SETU-60",
     category: "Telescopic Crane — Long Arm",
     tagline: "Epic reach. Zero compromise.",
     desc: "60-foot reach. Maximum reach for epic action sequences, stadium aerials, and large-scale Bollywood set pieces.",
@@ -122,7 +122,7 @@ export const products: Product[] = [
       { label: "Wheel Locks", value: "Individual pneumatic per axle" },
       { label: "Chassis", value: "Boron Steel — CNC Laser-Cut" },
       { label: "Tread Width", value: "Adjustable 1.2 m – 2.4 m" },
-      { label: "Crane Compatibility", value: "EGC-20 / EGC-40 / EGC-60" },
+      { label: "Crane Compatibility", value: "RKC-20 / RKC-40 / RKC-60" },
       { label: "Surface", value: "Film City Stage / Rajasthan Terrain Tested" },
     ],
     img: "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",

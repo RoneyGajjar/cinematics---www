@@ -26,7 +26,7 @@ export default function ServicesPage() {
       {/* ── 4-step process ── */}
       <ProcessSection />
 
-      {/* ── Why EGC advantages ── */}
+      {/* ── Why RKC advantages ── */}
       <AdvantagesSection />
 
       {/* ── Bottom CTA ── */}

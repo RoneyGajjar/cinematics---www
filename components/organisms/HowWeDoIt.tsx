@@ -1,13 +1,14 @@
 import SectionTag from "@/components/atoms/SectionTag";
 import Heading from "@/components/atoms/Heading";
 import PillarCard from "@/components/molecules/PillarCard";
+import Typography from "../atoms/Typography";
 
 const pillars = [
   {
     num: "01",
     title: "The Millennium Transmission",
     sub: "Steel-Reinforced Kevlar Belt Drive",
-    body: "Gears have backlash. Chains have chatter. The EGC series uses a steel-core Kevlar timing belt to deliver 2.5 m/s extension speed silently — below 20dB on a live sound stage.",
+    body: "Gears have backlash. Chains have chatter. The RKC series uses a steel-core Kevlar timing belt to deliver 2.5 m/s extension speed silently — below 20dB on a live sound stage.",
     spec: "< 20 dB at full speed",
   },
   {
@@ -49,11 +50,16 @@ export default function HowWeDoIt() {
               </span>
             </Heading>
           </div>
-          <p className="font-sans text-[0.72rem] text-fg-faint leading-[1.75] max-w-[320px] pt-2">
+          {/* <p className="font-sans text-[0.72rem] text-fg-faint leading-[1.75] max-w-[320px] pt-2">
             Every engineering decision begins by asking: what is the fundamental
             physical requirement? Then we reject every assumption inherited from
             legacy manufacturers.
-          </p>
+          </p> */}
+          <Typography variant="para-base" className="max-w-2xl pt-2">
+            Every engineering decision begins by asking: what is the fundamental
+            physical requirement? Then we reject every assumption inherited from
+            legacy manufacturers.
+          </Typography>
         </div>
       </div>
 

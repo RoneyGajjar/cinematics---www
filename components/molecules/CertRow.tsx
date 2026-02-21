@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Typography } from "../atoms/Typography";
 
 interface CertRowProps {
   year: string;
@@ -26,18 +27,18 @@ export default function CertRow({ year, title, body, detail, className }: CertRo
 
       {/* Title + body */}
       <div>
-        <p className="font-sans font-medium text-[0.78rem] tracking-[0.04em] text-fg-muted mb-0.5">
+        <Typography variant="para-base" textColor="muted" className="mb-0.5">
           {title}
-        </p>
-        <p className="font-sans text-[0.62rem] tracking-[0.06em] uppercase text-fg-faint">
+        </Typography>
+        <Typography variant="para-sm" textColor="faint">
           {body}
-        </p>
+        </Typography>
       </div>
 
       {/* Detail */}
-      <p className="font-sans text-[0.62rem] tracking-[0.04em] text-fg-faint">
+      <Typography variant="para-sm" textColor="faint">
         {detail}
-      </p>
+      </Typography>
     </div>
   );
 }

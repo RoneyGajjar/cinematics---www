@@ -24,10 +24,10 @@ export function generateMetadata({
     if (!product) return { title: "Product Not Found" };
     
     return {
-      title: `${product.name} | El Gajjar Cinematics`,
+      title: `${product.name} | RK Cinematics`,
       description: product.desc,
       openGraph: {
-        title: `${product.name} | El Gajjar Cinematics`,
+        title: `${product.name} | RK Cinematics`,
         description: product.tagline,
         images: [product.img],
         type: "website",

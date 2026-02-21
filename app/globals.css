@@ -20,7 +20,7 @@
   --fg-base:       #111111;
   --fg-muted:      rgba(17,17,17,0.55);
   --fg-faint:      rgba(17,17,17,0.28);
-  --fg-ghost:      rgba(17,17,17,0.12);
+  --fg-ghost:      rgba(17,17,17,0.33);
 
   /* Brand */
   --accent:        #007AFF;

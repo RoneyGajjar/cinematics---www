@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Typography } from "../atoms/Typography";
 
 interface MetaItemProps {
   label: string;
@@ -18,12 +19,12 @@ export default function MetaItem({ label, value, className }: MetaItemProps) {
         className
       )}
     >
-      <p className="font-sans text-[0.52rem] tracking-[0.22em] uppercase text-fg-faint mb-1">
+      <Typography variant="card-label" textColor="faint" className="mb-1">
         {label}
-      </p>
-      <p className="font-sans text-[0.78rem] tracking-[0.02em] text-fg-muted">
+      </Typography>
+      <Typography variant="card-body" textColor="muted">
         {value}
-      </p>
+      </Typography>
     </div>
   );
 }

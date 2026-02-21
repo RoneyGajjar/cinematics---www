@@ -29,13 +29,22 @@ const typographyVariants = cva("", {
       // Sans H3 - Card title (Process, Advantage)
       "card-title": "font-sans font-medium text-[0.88rem] tracking-[-0.01em] leading-[1.4]",
       // Sans H3 - Card title (Pillar)
-      "card-title-lg": "font-sans font-medium text-[1rem] tracking-[-0.01em]",
+      "card-title-lg": "font-sans font-medium text-xl tracking-[-0.01em]",
+      "card-label": "font-sans text-xs tracking-widest uppercase",
+      "card-body": "font-sans text-sm text-fg-faint leading-[1.8]",
       // Sans H3 - Card title (Advantage)
       "card-title-sm": "font-sans font-medium text-[0.9rem] tracking-[-0.01em] leading-[1.4]",
+      "card-title-base": "font-sans font-medium text-base tracking-[-0.01em] leading-[1.4]",
+      "para-base": "font-sans font-light text-base text-fg-faint leading-[1.85]",
+      "para-sm": "font-sans text-sm text-fg-faint leading-[1.7] tracking-[0.04em]"
+      
     },
     textColor: {
       base: "text-fg-base",
       muted: "text-fg-muted",
+      faint: "text-fg-faint",
+      accent: "text-accent",
+      ghost: "text-fg-ghost",
     },
   },
   defaultVariants: {
@@ -46,7 +55,7 @@ const typographyVariants = cva("", {
 
 type TypographyVariantProps = VariantProps<typeof typographyVariants>;
 
-type HeadingElement = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+type HeadingElement = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
 
 interface TypographyProps {
   variant: NonNullable<TypographyVariantProps["variant"]>;

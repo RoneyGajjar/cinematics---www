@@ -25,7 +25,7 @@ const aboutMeta = [
   { label: "Founded",         value: "2016" },
   { label: "Headquarters",    value: "Ahmedabad, Gujarat" },
   { label: "Primary Markets", value: "Mumbai · Hyderabad" },
-  { label: "Products",        value: "EGC-20 / EGC-40 / EGC-60" },
+  { label: "Products",        value: "RKC-20 / RKC-40 / RKC-60" },
   { label: "SLA Zone",        value: "6-Hour Response" },
 ];
 
@@ -49,14 +49,14 @@ export default function Footer() {
         <div className="flex justify-between items-start flex-wrap gap-16">
           // Left copy
           <div className="max-w-[560px]">
-            <SectionTag>[About El Gajjar Cinematics]</SectionTag>
+            <SectionTag>[About RK Cinematics]</SectionTag>
             <Typography variant="heading-lg" as="h2" textColor="muted" className="mb-8">
               The first intelligent camera crane
               <br />
               engineered in India.
             </Typography>
             <p className="font-sans text-[0.80rem] text-fg-faint leading-[1.85] mb-5">
-              El Gajjar Cinematics is a precision cinema equipment manufacturer
+              RK Cinematics is a precision cinema equipment manufacturer
               based in Ahmedabad, Gujarat. We design and fabricate telescopic
               camera cranes, mobile bases, and production carts for Bollywood,
               Tollywood, and global film productions.
@@ -85,7 +85,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="no-underline block mb-3">
               <span className="font-display text-[clamp(2rem,7vw,7rem)] leading-[0.85] text-fg-muted tracking-[-0.01em]">
-                El Gajjar Cinematics
+                RK Cinematics
               </span>
               <sup className="text-accent text-base align-super">®</sup>
             </Link>
@@ -120,7 +120,7 @@ export default function Footer() {
             Terms &amp; Conditions
           </p>
           <p className="font-sans text-[0.58rem] tracking-[0.16em] uppercase text-fg-ghost">
-            © {year} El Gajjar Cinematics
+            © {year} RK Cinematics
           </p>
           <div className="flex gap-6 flex-wrap">
             {socialLinks.map((s) => (

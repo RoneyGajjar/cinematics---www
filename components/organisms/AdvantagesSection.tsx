@@ -33,10 +33,10 @@ export default function AdvantagesSection() {
           <Heading>
             Why Indian productions
             <br />
-            <span className="text-fg-faint">are switching to EGC.</span>
+            <span className="text-fg-faint">are switching to RKC.</span>
           </Heading>
           <p className="font-sans text-[0.6rem] tracking-[0.28em] uppercase text-fg-ghost pt-2">
-            [The EGC Advantage]
+            [The RKC Advantage]
           </p>
         </div>
       </div>

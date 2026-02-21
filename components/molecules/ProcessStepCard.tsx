@@ -23,12 +23,12 @@ export default function ProcessStepCard({
       <p className="font-display text-[2.5rem] text-fg-ghost leading-none mb-8">
         {num}
       </p>
-      <Typography variant="card-title" as="h3" textColor="muted" className="mb-4">
+      <Typography variant="card-title-base" as="h3" textColor="muted" className="mb-4">
         {title}
       </Typography>
-      <p className="font-sans text-[0.70rem] text-fg-faint leading-[1.8]">
+      <Typography variant="card-body" textColor="faint">
         {desc}
-      </p>
+      </Typography>
     </div>
   );
 }

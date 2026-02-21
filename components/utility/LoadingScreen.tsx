@@ -49,12 +49,12 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             transition={{ duration: 0.5 }}
           >
             <span className="font-sans text-base tracking-[0.25em] text-white/40 uppercase">
-              El Gajjar Cinematics
+              RK Cinematics
             </span>
             <span className="text-white/30 text-xs">®</span>
           </motion.div>
 
-          {/* Centre — big EGC + loading label */}
+          {/* Centre — big RKC + loading label */}
           <div className="flex flex-col items-center gap-6">
             <motion.h1
               className="font-display text-[20vw] leading-none text-white select-none"
@@ -62,7 +62,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               animate={{ opacity: 1, letterSpacing: "0.05em" }}
               transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
             >
-              EGC
+              RKC
             </motion.h1>
             <motion.p
               className="font-sans text-xs tracking-[0.3em] text-white/30 uppercase"

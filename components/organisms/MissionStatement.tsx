@@ -4,6 +4,7 @@ import SectionTag from "@/components/atoms/SectionTag";
 import Heading from "@/components/atoms/Heading";
 import Button from "@/components/atoms/Button";
 import MetaItem from "@/components/molecules/MetaItem";
+import { Typography } from "../atoms/Typography";
 
 const meta = [
   { label: "Founded",         value: "2016" },
@@ -25,15 +26,14 @@ export default function MissionStatement() {
             <br />
             <span className="text-fg-faint">Its infrastructure should match.</span>
           </Heading>
-          <p className="font-sans text-[0.82rem] text-fg-faint leading-[1.85] max-w-[540px]">
-            El Gajjar Cinematics was founded on a single observation: the best
+          <Typography variant="para-base" className="max-w-2xl">
+            RK Cinematics was founded on a single observation: the best
             DoPs in Bollywood and Tollywood were limited not by vision, but by
             equipment. Imported cranes arrive months late, cost multiples of the
             lease value in service fees, and come with engineers who have never
             set foot on an Indian set.
-          </p>
+          </Typography>
         </div>
-
         {/* Meta column */}
         <div className="flex flex-col gap-7 min-w-[200px] pt-2">
           {meta.map((item) => (

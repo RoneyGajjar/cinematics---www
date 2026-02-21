@@ -120,7 +120,7 @@ export default function HeroSection({ visible = true }: HeroSectionProps) {
             <Typography
               variant="display-hero"
               as="h1"
-              className="relative z-[1]"
+              className="relative z-[1] text-white"
             >
               MOTION.
               <br />
@@ -131,7 +131,7 @@ export default function HeroSection({ visible = true }: HeroSectionProps) {
           {/* Scroll indicator */}
           <div className="flex flex-col items-end gap-3 pb-2">
             <span className="font-sans text-[0.55rem] tracking-[0.20em] uppercase text-accent">
-              EGC®
+              RKC®
             </span>
             <span className="font-sans text-[0.52rem] tracking-[0.25em] uppercase text-white/35 [writing-mode:vertical-rl] rotate-180">
               Scroll

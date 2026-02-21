@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Typography from "./Typography";
 
 interface SectionTagProps {
   children: React.ReactNode;
@@ -11,13 +12,13 @@ interface SectionTagProps {
  */
 export default function SectionTag({ children, className }: SectionTagProps) {
   return (
-    <p
+    <Typography      variant="card-label" textColor="accent"
       className={cn(
-        "font-sans text-[0.6rem] tracking-[0.28em] uppercase text-accent mb-6",
+        "mb-6 tracking-[0.4rem]",
         className
       )}
     >
       {children}
-    </p>
+    </Typography>
   );
 }

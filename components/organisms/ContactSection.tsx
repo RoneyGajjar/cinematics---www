@@ -69,7 +69,7 @@ export default function ContactSection() {
                 href="mailto:egc@elgajjar.com"
                 className="font-sans text-[0.78rem] text-accent tracking-[0.06em] no-underline hover:underline"
               >
-                EGC@ELGAJJAR.COM
+                RKC@ELGAJJAR.COM
               </a>
             </ContactInfoBlock>
 
