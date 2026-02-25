@@ -10,7 +10,7 @@ interface ThemeContextValue {
 }
 
 const ThemeContext = createContext<ThemeContextValue>({
-  theme: "dark",
+  theme: "light",
   toggleTheme: () => {},
 });
 
@@ -19,7 +19,7 @@ export function useTheme() {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("light");
 
   // Read saved preference or system preference on mount
   useEffect(() => {
@@ -27,8 +27,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (saved === "light" || saved === "dark") {
       setTheme(saved);
     } else {
-      // default to dark (brand look)
-      setTheme("dark");
+      // default to light (brand look)
+      setTheme("light");
     }
   }, []);
 

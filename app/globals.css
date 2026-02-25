@@ -10,23 +10,24 @@
    DESIGN TOKENS — Light & Dark
    ============================================================ */
 :root {
+  /* Light theme */
   /* Backgrounds */
   --bg-base:       #f0f0f0;
-  --bg-subtle:     #e4e4e4;
+  --bg-subtle:     #ffffff;
   --bg-surface:    #ffffff;
   --bg-elevated:   #f8f8f8;
 
   /* Foregrounds */
   --fg-base:       #111111;
-  --fg-muted:      rgba(17,17,17,0.55);
-  --fg-faint:      rgba(17,17,17,0.28);
-  --fg-ghost:      rgba(17,17,17,0.33);
+  --fg-muted:      rgba(17,17,17,0.80);
+  --fg-faint:      rgba(17,17,17,0.50);
+  --fg-ghost:      rgba(17,17,17,0.30);
 
   /* Brand */
-  --accent:        #007AFF;
-  --accent-hover:  #0063CC;
-  --accent-subtle: rgba(0,122,255,0.10);
-  --accent-border: rgba(0,122,255,0.30);
+  --accent:        #E7218B;
+  --accent-hover:  #E7218B;
+  --accent-subtle: rgba(255, 1, 115, 0.1);
+  --accent-border: rgba(255,210,1,0.30);
 
   /* Borders */
   --border:        rgba(17,17,17,0.10);

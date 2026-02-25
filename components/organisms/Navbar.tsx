@@ -67,7 +67,7 @@ export default function Navbar({ visible = true }: NavbarProps) {
           href="/"
           className="font-display text-[1.5rem] tracking-[0.04em] text-fg-base no-underline hover:text-accent transition-colors duration-300"
         >
-          RK Cinematics
+          <img src="rklogo.svg" alt="RK Cinematics Logo" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop nav */}

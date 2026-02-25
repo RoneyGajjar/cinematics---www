@@ -85,9 +85,9 @@ export default function Footer() {
           <div>
             <Link href="/" className="no-underline block mb-3">
               <span className="font-display text-[clamp(2rem,7vw,7rem)] leading-[0.85] text-fg-muted tracking-[-0.01em]">
-                RK Cinematics
+                <img src="rklogo.svg" alt="RK Cinematics Logo" className="h-15 w-auto" />
               </span>
-              <sup className="text-accent text-base align-super">®</sup>
+              {/* <sup className="text-accent text-base align-super">®</sup> */}
             </Link>
             <p className="font-sans text-[0.6rem] tracking-[0.20em] uppercase text-fg-ghost">
               Cinema Equipment Manufacturer · Ahmedabad, Gujarat

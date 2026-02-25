@@ -16,7 +16,7 @@ export default function FeaturedWorks() {
         <div>
           <SectionTag>[Product Catalog]</SectionTag>
           <Heading>
-            The RKC Series.
+            The SETU Series.
             <br />
             <span className="text-fg-faint">Three cranes. One standard.</span>
           </Heading>
