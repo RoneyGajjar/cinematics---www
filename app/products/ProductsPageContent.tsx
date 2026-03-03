@@ -10,7 +10,7 @@ import Button from "@/components/atoms/Button";
 import { cn } from "@/lib/utils";
 import { products } from "@/lib/products";
 
-const filters = ["All", "Telescopic Crane", "Platform Base", "Production Cart"];
+const filters = ["All", "Telescopic Crane", "Glider", "Cart"];
 
 export function ProductsPageContent() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -28,11 +28,11 @@ export function ProductsPageContent() {
         <SectionTag>[Product Catalog]</SectionTag>
         <div className="flex justify-between items-end flex-wrap gap-8 mb-12">
           <Typography variant="display-xl" as="h1">
-            The SETU Series.
+            PRODUCTS
           </Typography>
           <p className="font-sans text-[0.7rem] text-fg-faint leading-[1.75] max-w-[320px] tracking-[0.02em]">
             Every unit ships with factory load certification, full wiring
-            schematics, and a 6-hour SLA within Mumbai and Hyderabad zones.
+            schematics, and a 48-hour SLA within Mumbai and Hyderabad zones.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export function ProductsPageContent() {
                 <div className="relative overflow-hidden aspect-[4/3]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={product.img}
+                    src={product.thumbnail}
                     alt={product.name}
                     className={cn(
                       "w-full h-full object-cover block brightness-70",

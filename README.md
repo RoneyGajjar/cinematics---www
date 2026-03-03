@@ -1,6 +1,6 @@
-# EL GAJJAR CINEMATICS —— Marketing Website
+# RK CINEMATICS —— Marketing Website
 
-EL GAJJAR CINEMATICS is a Cinema Equipments Manufacturer, majorly Telescopic Camera Cranes, Mobile Bases and Carts.
+RK CINEMATICS is a Cinema Equipments Manufacturer, majorly Telescopic Camera Cranes, Mobile Bases and Carts.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 

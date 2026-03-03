@@ -7,6 +7,7 @@ interface NavLinkItemProps {
   href: string;
   children: React.ReactNode;
   className?: string;
+  scrolled?: boolean;
   onClick?: () => void;
 }
 
@@ -14,14 +15,15 @@ interface NavLinkItemProps {
  * Single nav link — desktop variant.
  * Ultra-small all-caps Inter, hover brightens colour.
  */
-export default function NavLinkItem({ href, children, className, onClick }: NavLinkItemProps) {
+export default function NavLinkItem({ href, children, className, onClick, scrolled }: NavLinkItemProps) {
   return (
     <Link
       href={href}
       onClick={onClick}
       className={cn(
         "font-sans text-[0.65rem] tracking-[0.18em] uppercase",
-        "text-fg-muted hover:text-fg-base transition-colors duration-300 no-underline",
+        "transition-colors duration-300 no-underline",
+        scrolled ? "text-black hover:text-blue-500" : "text-white hover:text-red-500",
         className
       )}
     >

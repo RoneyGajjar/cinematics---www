@@ -30,13 +30,18 @@ const sideInfo = [
   {
     label: "SLA Guarantee",
     value:
-      "Any mechanical failure in Mumbai or Hyderabad met with a replacement unit or specialist within 6 hours.",
+      "Any mechanical failure in Mumbai or Hyderabad met with a replacement unit or specialist within 48 hours.",
   },
+  // {
+  //   label: "Business Model",
+  //   value:
+  //     "Lease-to-Own over 36 months. Monthly fee covered by rental income. Own the asset outright at term end.",
+  // },
   {
-    label: "Business Model",
+    label: "Customization",
     value:
-      "Lease-to-Own over 36 months. Monthly fee covered by rental income. Own the asset outright at term end.",
-  },
+      "Modular design allows for custom boom lengths, payload capacities, and remote head interfaces to suit your production needs.",
+  }
 ];
 
 export default function ProcessSection() {

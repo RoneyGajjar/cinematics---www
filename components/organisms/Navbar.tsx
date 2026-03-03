@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 
 const NAV_LINKS = [
   { label: "Products",   href: "/products" },
-  { label: "Innovation", href: "/innovation" },
-  { label: "Showcase",   href: "/showcase" },
-  { label: "Services",   href: "/services" },
+  // { label: "Innovation", href: "/innovation" },
+  // { label: "Showcase",   href: "/showcase" },
+  // { label: "Services",   href: "/services" },
   { label: "Contact",    href: "/contact" },
 ];
 
@@ -73,12 +73,12 @@ export default function Navbar({ visible = true }: NavbarProps) {
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-10">
           {NAV_LINKS.map((link) => (
-            <NavLinkItem key={link.label} href={link.href}>
+            <NavLinkItem key={link.label} href={link.href} scrolled={scrolled}>
               {link.label}
             </NavLinkItem>
           ))}
 
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
 
           <Link
             href="/contact"

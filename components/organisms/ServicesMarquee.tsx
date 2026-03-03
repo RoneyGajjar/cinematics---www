@@ -1,17 +1,34 @@
+// const items = [
+//   "Silent-Glide Belt Drive",
+//   "2.5 m/s Extension Speed",
+//   "Active Digital Leveling",
+//   "7075-T6 Aerospace Alloy",
+//   "Multi-Mode Steering",
+//   "Flight-Ready Cart System",
+//   "Lease-to-Own",
+//   "6-Hour SLA",
+//   "Boron Steel Chassis",
+//   "MEMS Gyroscope Control",
+//   "Modular Architecture",
+//   "Air-Suspension Delivery",
+// ];
+
 const items = [
-  "Silent-Glide Belt Drive",
-  "2.5 m/s Extension Speed",
-  "Active Digital Leveling",
-  "7075-T6 Aerospace Alloy",
-  "Multi-Mode Steering",
-  "Flight-Ready Cart System",
-  "Lease-to-Own",
-  "6-Hour SLA",
-  "Boron Steel Chassis",
-  "MEMS Gyroscope Control",
-  "Modular Architecture",
-  "Air-Suspension Delivery",
+  "Electric Touch Screen",
+  "Fully Battery operated",
+  "Hydraulic Fluid head",
+  "Stabilized Telescopic arm motion",
+  "Motorized system",
+  "Motion control &  Encoding",
+  "Quick Setup & Easy to transport ",
+  "Aerospace-grade Aluminium",
+  // "Boron Steel Chassis",
+  // "MEMS Gyroscope Control",
+  // "Modular Architecture",
+  // "Air-Suspension Delivery",
 ];
+
+
 
 /**
  * CSS-animation marquee — no JS frame loop, no inline styles needed.

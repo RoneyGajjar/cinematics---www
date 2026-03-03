@@ -13,6 +13,8 @@ import Testimonials from "@/components/organisms/Testimonials";
 import Recognition from "@/components/organisms/Recognition";
 import ContactSection from "@/components/organisms/ContactSection";
 import Footer from "@/components/organisms/Footer";
+import ResultsSection from "../organisms/ResultsSection";
+import StatsSection from "../organisms/StatsSection";
 
 /**
  * Home page template — assembles all organisms into the full page layout.

@@ -8,11 +8,11 @@ import SectionTag from "@/components/atoms/SectionTag";
 const sitemapLinks = [
   { label: "Home",       href: "/" },
   { label: "Products",   href: "/products" },
-  { label: "Innovation", href: "/innovation" },
-  { label: "Showcase",   href: "/showcase" },
-  { label: "Services",   href: "/services" },
+  // { label: "Innovation", href: "/innovation" },
+  // { label: "Showcase",   href: "/showcase" },
+  // { label: "Services",   href: "/services" },
   { label: "Contact",    href: "/contact" },
-  { label: "About",      href: "#about" },
+  // { label: "About",      href: "#about" },
 ];
 
 const socialLinks = [
@@ -26,7 +26,7 @@ const aboutMeta = [
   { label: "Headquarters",    value: "Ahmedabad, Gujarat" },
   { label: "Primary Markets", value: "Mumbai · Hyderabad" },
   { label: "Products",        value: "RKC-20 / RKC-40 / RKC-60" },
-  { label: "SLA Zone",        value: "6-Hour Response" },
+  { label: "SLA Zone",        value: "48-Hour Response" },
 ];
 
 export default function Footer() {

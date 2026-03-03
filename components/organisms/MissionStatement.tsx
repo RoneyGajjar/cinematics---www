@@ -7,7 +7,7 @@ import MetaItem from "@/components/molecules/MetaItem";
 import { Typography } from "../atoms/Typography";
 
 const meta = [
-  { label: "Founded",         value: "2016" },
+  { label: "Founded",         value: "2022" },
   { label: "Headquarters",    value: "Ahmedabad, Gujarat" },
   { label: "Primary Markets", value: "Mumbai · Hyderabad" },
   { label: "Specialty",       value: "Telescopic Cranes, Bases & Carts" },

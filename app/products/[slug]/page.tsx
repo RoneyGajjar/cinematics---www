@@ -55,7 +55,7 @@ export default async function ProductDetailPage({
   return (
     <PageWrapper>
       {/* ── Hero ── */}
-      <section className="relative h-[70vh] min-h-[520px] overflow-hidden flex items-end">
+      <section className="relative w-full aspect-2/1 overflow-hidden flex items-end">
         {/* Background image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -123,14 +123,14 @@ export default async function ProductDetailPage({
 
             {/* CTA buttons */}
             <div className="flex gap-3 flex-wrap">
-              <Link href="/#contact">
+              <Link href="/contact">
                 <button className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-white bg-accent border border-accent px-7 py-3.5 cursor-pointer hover:bg-accent/90 transition-colors">
                   Request a Quote →
                 </button>
               </Link>
-              <Link href="/#contact">
+              <Link href="/contact">
                 <button className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-fg-muted bg-transparent border border-border px-7 py-3.5 cursor-pointer hover:border-border-strong transition-colors">
-                  Download CAD Specs
+                  Download Brochure →
                 </button>
               </Link>
             </div>
@@ -139,7 +139,7 @@ export default async function ProductDetailPage({
           {/* Right: spec table */}
           <div>
             <p className="font-sans text-[0.6rem] tracking-[0.28em] uppercase text-fg-ghost mb-6">
-              Technical Specifications
+              Specifications
             </p>
             <div>
               {product.detailSpecs.map((spec, i) => (
@@ -220,7 +220,7 @@ export default async function ProductDetailPage({
           {[
             {
               label: "SLA Response",
-              value: "6-Hour",
+              value: "48-Hour",
               sub: "Mumbai & Hyderabad zones",
             },
             {

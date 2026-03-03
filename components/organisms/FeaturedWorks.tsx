@@ -28,8 +28,7 @@ export default function FeaturedWorks() {
             schematics, and a 6-hour SLA within Mumbai and Hyderabad zones.
           </p> */}
           <Typography variant="para-sm" className="text-right max-w-sm">
-            All RKC products ship with factory load certification, full wiring
-            schematics, and a 6-hour SLA within Mumbai and Hyderabad zones.
+            Precision-engineered telescopic cranes & cinema gear. Built for fluid motion and heavy payloads. Elevate your production with RK Cinematics gear.
           </Typography>
           <Link
             href="/products"

@@ -4,24 +4,29 @@ import AdvantageCard from "@/components/molecules/AdvantageCard";
 const advantages = [
   {
     tag: "[01]",
-    title: "30% Lighter Than the Competition",
+    title: "30% Lighter",
     desc: "7075-T6 aerospace aluminum versus the mild steel used by legacy crane manufacturers. Less mass means faster acceleration, smaller counterweight, and a lighter total payload on the base.",
   },
   {
     tag: "[02]",
     title: "Local Engineering Support",
-    desc: "When a crane fails at 07:00 on a ₹2 crore production day, you don't call Poland. Our engineers are in Ahmedabad with a replacement unit ready to roll. 6-hour SLA guarantee in Mumbai and Hyderabad.",
+    desc: "When a crane fails at 07:00 on a ₹2 crore production day, you don't call Poland. Our engineers are in Ahmedabad with a replacement unit ready to roll. 48-hour SLA guarantee in Mumbai and Hyderabad.",
   },
   {
     tag: "[03]",
     title: "Built for Indian Sets",
     desc: "Uneven stages in Film City. Cobblestones in Rajmahal. Sand in Rajasthan. Our Mobile Base was tested in Indian conditions by Indian grips — not in a European factory parking lot.",
   },
+  // {
+  //   tag: "[04]",
+  //   title: "Lease-to-Own, Not Lease-Forever",
+  //   desc: "After 36 months of monthly payments — covered by the rental income the crane generates — it is yours. No import duties, no surprise service fees. The asset sits on your balance sheet, not ours.",
+  // },
   {
     tag: "[04]",
-    title: "Lease-to-Own, Not Lease-Forever",
-    desc: "After 36 months of monthly payments — covered by the rental income the crane generates — it is yours. No import duties, no surprise service fees. The asset sits on your balance sheet, not ours.",
-  },
+    title: "Precision Motion, Not Just a Lift",
+    desc: "Our cranes are engineered as precision motion control systems, not glorified elevators. Active digital leveling, stabilized telescopic arm motion, and vibration damping ensure fluid, repeatable moves every time.",
+  }
 ];
 
 export default function AdvantagesSection() {

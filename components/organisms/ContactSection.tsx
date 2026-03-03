@@ -47,53 +47,9 @@ export default function ContactSection() {
       id="contact"
       className="border-t border-border bg-bg-elevated"
     >
-      {/* Heading + contact info */}
-      <div className="px-site py-28 md:py-36">
-        <div className="flex justify-between items-start flex-wrap gap-8">
-          {/* Left */}
-          <div>
-            <SectionTag>[Mission Control]</SectionTag>
-            <Typography variant="heading-xl" as="h2">
-              Ready to move
-              <br />
-              the camera
-              <br />
-              <span className="text-fg-ghost">differently?</span>
-            </Typography>
-          </div>
-
-          {/* Right: contact info */}
-          <div className="flex flex-col gap-8 pt-2 min-w-[220px]">
-            <ContactInfoBlock label="General Enquiries">
-              <a
-                href="mailto:egc@elgajjar.com"
-                className="font-sans text-[0.78rem] text-accent tracking-[0.06em] no-underline hover:underline"
-              >
-                RKC@ELGAJJAR.COM
-              </a>
-            </ContactInfoBlock>
-
-            <ContactInfoBlock label="AOG Support Line">
-              <p className="font-sans text-[0.78rem] text-fg-muted">+91 79 XXXX XXXX</p>
-              <p className="font-sans text-[0.6rem] text-fg-faint tracking-[0.04em] mt-1">
-                Aircraft on Ground — 24/7 production support
-              </p>
-            </ContactInfoBlock>
-
-            <ContactInfoBlock label="Facility">
-              <p className="font-sans text-[0.78rem] text-fg-muted leading-[1.6]">
-                GIDC Industrial Estate
-                <br />
-                Ahmedabad, Gujarat 382445
-              </p>
-            </ContactInfoBlock>
-          </div>
-        </div>
-      </div>
-
       {/* Form */}
       <div className="px-site pb-20 md:pb-28">
-        <div className="border border-border p-[clamp(2rem,5vw,3.5rem)]">
+        <div className=" p-[clamp(2rem,5vw,3.5rem)]">
           <p className="font-sans font-light text-[clamp(1.25rem,3vw,1.75rem)] text-fg-muted tracking-[-0.01em] mb-10">
             Tell us about your production.
           </p>
@@ -114,14 +70,14 @@ export default function ContactSection() {
             >
               {/* Name + Production House */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <FormField label="Name"             type="text"  placeholder="Rajeev Menon"   required />
-                <FormField label="Production House" type="text"  placeholder="Yash Raj Films" required />
+                <FormField label="Name" type="text" placeholder="Rajeev Menon" required />
+                <FormField label="Production House" type="text" placeholder="Yash Raj Films" required />
               </div>
 
               {/* Email + Phone */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <FormField label="Email" type="email" placeholder="rajeev@studio.com" />
-                <FormField label="Phone" type="tel"   placeholder="+91 98XX XXXXXX" />
+                <FormField label="Phone" type="tel" placeholder="+91 98XX XXXXXX" />
               </div>
 
               {/* Region selector */}
@@ -229,6 +185,59 @@ export default function ContactSection() {
           )}
         </div>
       </div>
+
+
+
+      {/* Heading + contact info */}
+      <div className="px-site py-28 md:py-36 border border-border bg-white">
+        <div className="flex justify-between items-start flex-wrap gap-8">
+          {/* Left */}
+          <div>
+            <SectionTag>[Mission Control]</SectionTag>
+            <Typography variant="heading-xl" as="h2">
+              Ready to move 
+              <br />
+              the camera
+              <br />
+              <span className="text-fg-ghost">differently?</span>
+            </Typography>
+          </div>
+
+          {/* Right: contact info */}
+          <div className="flex flex-col gap-8 pt-2 min-w-[220px]">
+            <ContactInfoBlock label="General Enquiries">
+              <a
+                href="mailto:rkcinematics2807@gmail.com"
+                className="font-sans text-[0.78rem] text-accent tracking-[0.06em] no-underline hover:underline"
+              >
+                rkcinematics2807@gmail.com
+              </a>
+            </ContactInfoBlock>
+
+            <ContactInfoBlock label="Support Line">
+              <p className="font-sans text-[0.78rem] text-fg-muted">+91 9374218010</p>
+              <p className="font-sans text-[0.6rem] text-fg-faint tracking-[0.04em] mt-1">
+                24/7 production support
+              </p>
+            </ContactInfoBlock>
+
+            <ContactInfoBlock label="Facility">
+              <p className="font-sans text-[0.78rem] text-fg-muted leading-[1.6]">
+                1, Sardar Patel Ring Rd,
+                <br />
+                Odhav Industrial Estate, 
+                <br />
+                Odhav, 
+                <br />
+                Ahmedabad, Kathwada, Gujarat 382415
+              </p>
+            </ContactInfoBlock>
+          </div>
+        </div>
+      </div>
+
+
+
     </section>
   );
 }

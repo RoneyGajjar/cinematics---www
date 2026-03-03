@@ -10,7 +10,8 @@ interface HeroSectionProps {
 }
 
 // Video sources with poster for faster LCP
-const VIDEO_SRC = "https://videos.pexels.com/video-files/8089117/8089117-uhd_2732_1440_25fps.mp4";
+const VIDEO_SRC = "/hero_video.mp4" 
+// "https://videos.pexels.com/video-files/8089117/8089117-uhd_2732_1440_25fps.mp4";
 const POSTER_SRC = "https://images.pexels.com/photos/8089117/pexels-photo-8089117.jpeg?auto=compress&cs=tinysrgb&w=1920";
 
 export default function HeroSection({ visible = true }: HeroSectionProps) {
@@ -89,9 +90,9 @@ export default function HeroSection({ visible = true }: HeroSectionProps) {
           <Button variant="primary" onClick={() => scrollTo("products")}>
             Explore Products
           </Button>
-          <Button variant="ghost" onClick={() => scrollTo("contact")}>
+          {/* <Button variant="ghost" onClick={() => scrollTo("contact")}>
             Request Spec Sheet
-          </Button>
+          </Button> */}
         </div>
       </motion.div>
 
@@ -120,7 +121,7 @@ export default function HeroSection({ visible = true }: HeroSectionProps) {
             <Typography
               variant="display-hero"
               as="h1"
-              className="relative z-[1] text-white"
+              className="relative z-[1] text-white drop-shadow-xl"
             >
               MOTION.
               <br />
